@@ -14,11 +14,11 @@ It Can Tell You The accurate Weather Of Your City.
 
 2) pkg install git
 
-3) pip install -r requirements.txt
+3) git clone https://github.com/Recons7/Weather_map.git
 
-4) git clone https://github.com/Recons7/Weather_map.git
+4) cd Weather_map
 
-5) cd Weather_map
+5) pip install -r requirements.txt
 
 6) python3 Weather.py
 
