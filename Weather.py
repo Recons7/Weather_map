@@ -30,7 +30,7 @@ def weather():
 	
 	print("\n")
 	
-	print(colored(f"Wind speed : {r.json()['wind']['speed']}", "cyan"))
+	print(colored(f"Wind speed : {r.json()['wind']['speed']} km/h", "cyan"))
 	
 	print(colored("\n\n"+"="*50, "yellow"))
 	print("\n")
