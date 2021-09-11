@@ -10,9 +10,9 @@ print(colored(pyfiglet.figlet_format("Weather"), "green"))
 BOLD = '\033[1m'
 END = '\033[0m'
 
-print(colored("\n\n"+"="*54, "yellow"))
+print(colored("\n\n"+"="*51, "yellow"))
 print(colored(BOLD+'\n\t    WEATHER MAP BY :- SURAJ SHARMA'+END, "blue"))
-print(colored("\n"+"="*54, "yellow"))
+print(colored("\n"+"="*51, "yellow"))
 
 def weather():
 	
@@ -21,7 +21,7 @@ def weather():
 	r = requests.get(f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=ff189edaab5a0d9cf74220087f0b69e9')
 	
 	print("\n")
-	print(colored("\n"+"="*54, "yellow"))
+	print(colored("\n"+"="*51, "yellow"))
 	print(colored(f"\n\n'{r.json()['weather'][0]['description']}' at {city}", "magenta"))
 	
 	print("\n")
@@ -32,7 +32,7 @@ def weather():
 	
 	print(colored(f"Wind speed : {r.json()['wind']['speed']}", "cyan"))
 	
-	print(colored("\n\n"+"="*54, "yellow"))
+	print(colored("\n\n"+"="*51, "yellow"))
 	print("\n")
 	
 	
